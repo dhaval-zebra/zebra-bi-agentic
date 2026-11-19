@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "zebra-bi",
-      "source": "./plugins/zebra-bi",
+      "source": {
+        "source": "github",
+        "repo": "zebrabi/zebra-bi"
+      },
       "description": "Plan, author and verify Zebra BI reports (Charts, Tables, Cards) in a Power BI PBIP project. Point it at a modelled .pbip and it writes the report layer, binds the visuals, applies IBCS semantics and verifies the result against Power BI Desktop.",
       "author": {
         "name": "Zebra BI",
